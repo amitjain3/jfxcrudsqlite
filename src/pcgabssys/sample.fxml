@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+    prefHeight="335.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/8"
+    xmlns:fx="http://javafx.com/fxml/1" fx:controller="pcgabssys.Controller">
+   <children>
+      <TableView fx:id="tableview" prefHeight="510.0" prefWidth="273.0" onMouseClicked="#tableClicked"/>
+      <Pane fx:id="pane" prefHeight="335.0" prefWidth="316.0">
+         <children>
+            <Button fx:id="btnupdate" onAction="#updateClicked" mnemonicParsing="false" prefHeight="22.0" prefWidth="59.0" text="Update" />
+            <Button fx:id="btninsert" onAction="#insertClicked" layoutX="68.0" mnemonicParsing="false" text="Insert" />
+            <Button fx:id="btndelete" onAction="#deleteClicked" layoutX="129.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="59.0" text="Delete" />
+            <Button layoutX="199.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="48.0" text="Send" />
+         </children>
+      </Pane>
+   </children>
+</HBox>
